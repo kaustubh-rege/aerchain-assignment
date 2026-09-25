@@ -47,14 +47,34 @@ def load_data():
     return comparison_table, master_items, extractions
 
 
-def highlight_cheapest(row: pd.Series) -> list[str]:
-    """Green-highlight the lowest price in each SKU row; leaves NaN cells
-    (vendor didn't quote that SKU) unstyled rather than treating them as 0."""
-    numeric = row.apply(lambda x: x if pd.notna(x) else float("inf"))
-    if numeric.min() == float("inf"):
-        return [""] * len(row)
-    min_idx = list(row.index).index(numeric.idxmin())
-    return ["background-color: #d4f7d4" if i == min_idx else "" for i in range(len(row))]
+def build_display_df(dataframes: dict, eligible_vendors: list[str]) -> pd.DataFrame:
+    """One row per SKU: description, the cheapest price AMONG eligible_vendors
+    only (so the quality-only toggle actually changes the winner, not just
+    the color), every vendor's raw price as its own sortable column, and a
+    flag count so a buyer can sort straight to the riskiest lines."""
+    price_df = dataframes["price_df"]
+    flags_df = dataframes["flags_df"]
+    items_df = dataframes["items_df"]
+    vendors = list(price_df.columns)
+
+    rows = []
+    for sku in price_df.index:
+        row = price_df.loc[sku]
+        eligible = row[eligible_vendors].dropna()
+        cheapest_vendor = eligible.idxmin() if not eligible.empty else "— none quoted —"
+        cheapest_price = eligible.min() if not eligible.empty else None
+        flag_count = int((flags_df.loc[sku] != "").sum())
+        entry = {
+            "SKU": sku,
+            "Description": items_df.loc[sku, "description"],
+            "Cheapest Vendor": cheapest_vendor,
+            "Cheapest Price": cheapest_price,
+        }
+        for v in vendors:
+            entry[v] = row[v]
+        entry["Flags"] = flag_count
+        rows.append(entry)
+    return pd.DataFrame(rows).set_index("SKU")
 
 
 def main():
@@ -75,19 +95,76 @@ def main():
     dataframes = build_dataframes(comparison_table, extractions, master_items)
     price_df = dataframes["price_df"]
     flags_df = dataframes["flags_df"]
+    confidence_df = dataframes["confidence_df"]
     quality_df = dataframes["quality_df"]
+    items_df = dataframes["items_df"]
+    all_vendors = list(price_df.columns)
 
     tab1, tab2, tab3 = st.tabs(["Comparison Table", "Vendor Quality", "Ask a Question"])
 
     with tab1:
         st.subheader("Price comparison (INR per piece)")
-        st.caption("Cheapest quoted price per SKU highlighted in green. Blank = not quoted by that vendor.")
-        styled = price_df.style.apply(highlight_cheapest, axis=1).format(precision=2, na_rep="—")
-        st.dataframe(styled, use_container_width=True)
 
-        n_flagged = int((flags_df != "").sum().sum())
-        with st.expander(f"Show all flags ({n_flagged} flagged cells - unit/currency conversions, footnote conditions, missing quotes, illegible fields)"):
-            st.dataframe(flags_df, use_container_width=True)
+        with st.sidebar:
+            st.header("Filters")
+            vendor_filter = st.multiselect("Vendor columns to show", all_vendors, default=all_vendors)
+            quality_only = st.checkbox(
+                "Only count quality-passed vendors as 'cheapest'",
+                help="When checked, 'Cheapest Vendor'/'Cheapest Price' below ignore any vendor "
+                     "that failed the quality questionnaire - even if their raw price is lower."
+            )
+            search = st.text_input("Search SKU or description")
+            only_flagged = st.checkbox("Only show SKUs with at least one flag")
+
+        eligible_vendors = (
+            quality_df[quality_df["quality_pass"]].index.tolist() if quality_only else all_vendors
+        )
+        eligible_vendors = eligible_vendors or all_vendors  # guard against an empty filter result
+
+        display_df = build_display_df(dataframes, eligible_vendors)
+
+        if search.strip():
+            s = search.strip().lower()
+            mask = display_df.index.str.lower().str.contains(s) | \
+                   display_df["Description"].str.lower().str.contains(s)
+            display_df = display_df[mask]
+        if only_flagged:
+            display_df = display_df[display_df["Flags"] > 0]
+
+        shown_cols = ["Description", "Cheapest Vendor", "Cheapest Price"] + vendor_filter + ["Flags"]
+        st.caption(f"{len(display_df)} of {len(price_df)} SKUs shown. Click a row for full detail. "
+                   f"Click any column header to sort.")
+
+        event = st.dataframe(
+            display_df[shown_cols],
+            use_container_width=True,
+            on_select="rerun",
+            selection_mode="single-row",
+            column_config={
+                "Cheapest Price": st.column_config.NumberColumn(format="₹%.2f"),
+                **{v: st.column_config.NumberColumn(format="₹%.2f") for v in vendor_filter},
+            },
+            key="price_table",
+        )
+
+        selected_rows = event.selection.rows if event and event.selection else []
+        if selected_rows:
+            sku = display_df.index[selected_rows[0]]
+            st.divider()
+            st.subheader(f"{sku} — {items_df.loc[sku, 'description']}")
+            detail_rows = []
+            for v in all_vendors:
+                detail_rows.append({
+                    "Vendor": v,
+                    "Price (INR/pc)": price_df.loc[sku, v],
+                    "Confidence": confidence_df.loc[sku, v],
+                    "Quality Pass": quality_df.loc[v, "quality_pass"] if v in quality_df.index else None,
+                    "Flags": flags_df.loc[sku, v] or "—",
+                })
+            st.dataframe(pd.DataFrame(detail_rows).set_index("Vendor"), use_container_width=True)
+        else:
+            st.info("No row selected yet - click any SKU above to see every vendor's price, "
+                    "confidence, and flags for that line side by side.")
 
     with tab2:
         st.subheader("Quality questionnaire - pass/fail")

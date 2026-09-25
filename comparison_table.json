@@ -1,0 +1,1399 @@
+[
+  {
+    "sku": "CB-001",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 6.1,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 6.2698,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 6.64,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 5.89,
+      "confidence": "high",
+      "flags": [
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 6.2,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes up to 400x300x250mm - Rs 6.20/pc (150x100x80 within bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-002",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 6.15,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 6.3356,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 6.889,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 5.93,
+      "confidence": "high",
+      "flags": [
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.7,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply up to 400x300x250mm (6.20) + 5-ply add Rs3.50 (200x150x100 within bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-003",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 6.32,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 6.2604,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 7.47,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 6.4,
+      "confidence": "high",
+      "flags": [
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 6.2,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes up to 400x300x250mm - Rs 6.20/pc (230x180x120 within bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-004",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 7.16,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 7.4542,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 8.549,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 7.04,
+      "confidence": "high",
+      "flags": [
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.7,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply up to 400x300x250mm (6.20) + 5-ply add Rs3.50 (250x200x150 within bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-005",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 8.26,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 8.413,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 9.047,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 8.05,
+      "confidence": "high",
+      "flags": [
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 13.58,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Pallet Box = Heavy duty; 3-ply bracket up to 400x300x250 (300x200x150 within) = 6.20 + 5-ply add 3.50 = 9.70, then Heavy duty +40% = 9.70*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-006",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 6.72,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 6.6834,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 7.47,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 6.29,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 6.2,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes up to 400x300x250mm - Rs 6.20/pc (300x250x200 within bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-007",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 7.29,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 7.99,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 8.134,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 7.06,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "low",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (350x250x200 - note: dims are all below 400x300x250 threshold individually but description labeled as above-bracket item in vendor's list; treating per given base categorization)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-008",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 16.36,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 17.4652,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 17.762,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 16.62,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 12.5,
+      "confidence": "low",
+      "flags": [
+        "derived from rule: 3-ply above 400x300x250mm (9.00) + 5-ply add Rs3.50 (350x300x250, ambiguous bracket vs CB-007)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-009",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 9.47,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 9.8794,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 11.205,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 9.07,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 6.2,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes up to 400x300x250mm - Rs 6.20/pc (400x300x200, all dims <= 400x300x250)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-010",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 18.44,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 18.7812,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 19.92,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 18.38,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 12.5,
+      "confidence": "low",
+      "flags": [
+        "derived from rule: 3-ply above 400x300x250mm (9.00) + 5-ply add Rs3.50 (400x300x250 at exact boundary, treated as 'above' per SKU naming as Heavy Duty size class beyond 009)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-011",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 21.15,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 21.9772,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 25.398,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": null,
+      "confidence": null,
+      "flags": [
+        "NOT QUOTED by this vendor"
+      ],
+      "source": "missing"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Pallet Box = Heavy duty; 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, then +40% = 12.50*1.4 (450x350x250 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-012",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 14.1,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 14.288,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 16.351,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 14.12,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (450x350x300 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-013",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 15.0,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 15.5476,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 17.181,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 15.46,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (500x350x300 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-014",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 29.41,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 28.2376,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 34.03,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 30.79,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 12.5,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply above bracket (9.00) + 5-ply add Rs3.50 (500x400x300 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-015",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 18.84,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 19.4392,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 20.335,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 18.6,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (500x400x350 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-016",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 32.55,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 34.2254,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 39.591,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 34.3,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Heavy duty (Export Box, large size); 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-017",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 37.41,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 38.023,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 39.508,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 38.17,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Pallet Box = Heavy duty; 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-018",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 25.77,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 25.1826,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 28.386,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 23.83,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (600x450x400 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-019",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 27.08,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 28.5008,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 29.714,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 25.52,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (600x450x450 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-020",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 45.16,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 47.2162,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 50.049,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 47.67,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 12.5,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply above bracket (9.00) + 5-ply add Rs3.50 (650x450x400 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-021",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 29.54,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 29.657,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 37.101,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": null,
+      "confidence": null,
+      "flags": [
+        "NOT QUOTED by this vendor"
+      ],
+      "source": "missing"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (650x500x450 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-022",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 52.31,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 54.1722,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 65.072,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 57.18,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Heavy duty (Export Box, large size); 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-023",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 61.85,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 65.4616,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 69.305,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 59.74,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Pallet Box = Heavy duty; 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-024",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 36.97,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 39.0664,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 46.314,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 36.73,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (750x550x500 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-025",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 39.55,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 43.2588,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 44.986,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 42.16,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (750x600x500 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-026",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 70.64,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 73.0756,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 81.921,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 77.13,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 12.5,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply above bracket (9.00) + 5-ply add Rs3.50 (800x600x500 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-027",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 43.38,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 44.3022,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 54.199,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 43.25,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (800x600x550 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-028",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 83.93,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 87.1098,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 98.687,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 90.15,
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Heavy duty (Export Box, large size); 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-029",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 92.13,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 97.0644,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 101.177,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": null,
+      "confidence": null,
+      "flags": [
+        "NOT QUOTED by this vendor"
+      ],
+      "source": "missing"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 17.5,
+      "confidence": "medium",
+      "flags": [
+        "derived from rule: Pallet Box = Heavy duty; 3-ply above bracket (9.00) + 5-ply add 3.50 = 12.50, +40% = 12.50*1.4"
+      ],
+      "source": "resolved_rule"
+    }
+  },
+  {
+    "sku": "CB-030",
+    "Alpha Packaging Co.": {
+      "price_inr_per_piece": 61.24,
+      "confidence": "high",
+      "flags": [],
+      "source": "line_item"
+    },
+    "BHARAT CORRUGATORS PVT. LTD.": {
+      "price_inr_per_piece": 59.7464,
+      "confidence": "high",
+      "flags": [
+        "price_in_footnote_discount_applies",
+        "applied -6.0% (Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount))"
+      ],
+      "source": "line_item"
+    },
+    "Continental Packaging Solutions": {
+      "price_inr_per_piece": 72.957,
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr",
+        "converted USD->INR at assumed rate 83.0",
+        "unquantified adjustment noted but NOT applied: Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)"
+      ],
+      "source": "line_item"
+    },
+    "SWIFT PRINT & PACK": {
+      "price_inr_per_piece": 63.28,
+      "confidence": "low",
+      "flags": [
+        "unit_ambiguous",
+        "illegible",
+        "converted 'per 100 pieces' -> per piece (divided by 100)",
+        "unquantified adjustment noted but NOT applied: Payment terms: 100% advance required",
+        "unquantified adjustment noted but NOT applied: Freight charged separately, not included in rates"
+      ],
+      "source": "line_item"
+    },
+    "Rapid Cartons": {
+      "price_inr_per_piece": 9.0,
+      "confidence": "high",
+      "flags": [
+        "derived from rule: 3-ply boxes above 400x300x250mm - Rs 9/pc (950x700x600 exceeds bracket)"
+      ],
+      "source": "resolved_rule"
+    }
+  }
+]

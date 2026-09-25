@@ -1,4 +1,355 @@
 {
   "vendor_name_as_stated": "Continental Packaging Solutions",
-  "currency_stated": "USD"
+  "currency_stated": "USD",
+  "currency_evidence": "explicitly stated: \"All prices in USD, FOB Chennai\"",
+  "line_items": [
+    {
+      "description_as_quoted": "CB-001 (150x100x80mm, 3-ply) at USD 0.080 per piece",
+      "matched_rfx_sku": "CB-001",
+      "unit_price": 0.08,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-002 (200x150x100mm, 5-ply) at USD 0.083 per piece",
+      "matched_rfx_sku": "CB-002",
+      "unit_price": 0.083,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-007 (350x250x200mm, 3-ply) at USD 0.098 per piece",
+      "matched_rfx_sku": "CB-007",
+      "unit_price": 0.098,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-008 (350x300x250mm, 5-ply) at USD 0.214 per piece",
+      "matched_rfx_sku": "CB-008",
+      "unit_price": 0.214,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-013 (500x350x300mm, 3-ply) at USD 0.207 per piece",
+      "matched_rfx_sku": "CB-013",
+      "unit_price": 0.207,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-014 (500x400x300mm, 5-ply) at USD 0.410 per piece",
+      "matched_rfx_sku": "CB-014",
+      "unit_price": 0.41,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-019 (600x450x450mm, 3-ply) at USD 0.358 per piece",
+      "matched_rfx_sku": "CB-019",
+      "unit_price": 0.358,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-020 (650x450x400mm, 5-ply) at USD 0.603 per piece",
+      "matched_rfx_sku": "CB-020",
+      "unit_price": 0.603,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-025 (750x600x500mm, 3-ply) at USD 0.542 per piece",
+      "matched_rfx_sku": "CB-025",
+      "unit_price": 0.542,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-026 (800x600x500mm, 5-ply) at USD 0.987 per piece",
+      "matched_rfx_sku": "CB-026",
+      "unit_price": 0.987,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "E-comm Shipping Box section"
+    },
+    {
+      "description_as_quoted": "CB-003 (230x180x120mm, 3-ply) at USD 0.090 per piece",
+      "matched_rfx_sku": "CB-003",
+      "unit_price": 0.09,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Retail Display Box section"
+    },
+    {
+      "description_as_quoted": "CB-009 (400x300x200mm, 3-ply) at USD 0.135 per piece",
+      "matched_rfx_sku": "CB-009",
+      "unit_price": 0.135,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Retail Display Box section"
+    },
+    {
+      "description_as_quoted": "CB-015 (500x400x350mm, 3-ply) at USD 0.245 per piece",
+      "matched_rfx_sku": "CB-015",
+      "unit_price": 0.245,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Retail Display Box section"
+    },
+    {
+      "description_as_quoted": "CB-021 (650x500x450mm, 3-ply) at USD 0.447 per piece",
+      "matched_rfx_sku": "CB-021",
+      "unit_price": 0.447,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Retail Display Box section"
+    },
+    {
+      "description_as_quoted": "CB-027 (800x600x550mm, 3-ply) at USD 0.653 per piece",
+      "matched_rfx_sku": "CB-027",
+      "unit_price": 0.653,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Retail Display Box section"
+    },
+    {
+      "description_as_quoted": "CB-004 (250x200x150mm, 5-ply) at USD 0.103 per piece",
+      "matched_rfx_sku": "CB-004",
+      "unit_price": 0.103,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Heavy Duty Export Box section"
+    },
+    {
+      "description_as_quoted": "CB-010 (400x300x250mm, 5-ply) at USD 0.240 per piece",
+      "matched_rfx_sku": "CB-010",
+      "unit_price": 0.24,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Heavy Duty Export Box section"
+    },
+    {
+      "description_as_quoted": "CB-016 (550x400x350mm, 5-ply) at USD 0.477 per piece",
+      "matched_rfx_sku": "CB-016",
+      "unit_price": 0.477,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Heavy Duty Export Box section"
+    },
+    {
+      "description_as_quoted": "CB-022 (700x500x450mm, 5-ply) at USD 0.784 per piece",
+      "matched_rfx_sku": "CB-022",
+      "unit_price": 0.784,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Heavy Duty Export Box section"
+    },
+    {
+      "description_as_quoted": "CB-028 (850x650x550mm, 5-ply) at USD 1.189 per piece",
+      "matched_rfx_sku": "CB-028",
+      "unit_price": 1.189,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Heavy Duty Export Box section"
+    },
+    {
+      "description_as_quoted": "CB-005 (300x200x150mm, 5-ply) at USD 0.109 per piece",
+      "matched_rfx_sku": "CB-005",
+      "unit_price": 0.109,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Pallet Box section"
+    },
+    {
+      "description_as_quoted": "CB-011 (450x350x250mm, 5-ply) at USD 0.306 per piece",
+      "matched_rfx_sku": "CB-011",
+      "unit_price": 0.306,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Pallet Box section"
+    },
+    {
+      "description_as_quoted": "CB-017 (600x400x350mm, 5-ply) at USD 0.476 per piece",
+      "matched_rfx_sku": "CB-017",
+      "unit_price": 0.476,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Pallet Box section"
+    },
+    {
+      "description_as_quoted": "CB-023 (700x550x500mm, 5-ply) at USD 0.835 per piece",
+      "matched_rfx_sku": "CB-023",
+      "unit_price": 0.835,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Pallet Box section"
+    },
+    {
+      "description_as_quoted": "CB-029 (900x650x600mm, 5-ply) at USD 1.219 per piece",
+      "matched_rfx_sku": "CB-029",
+      "unit_price": 1.219,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Pallet Box section"
+    },
+    {
+      "description_as_quoted": "CB-006 (300x250x200mm, 3-ply) at USD 0.090 per piece",
+      "matched_rfx_sku": "CB-006",
+      "unit_price": 0.09,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Mailer Box section"
+    },
+    {
+      "description_as_quoted": "CB-012 (450x350x300mm, 3-ply) at USD 0.197 per piece",
+      "matched_rfx_sku": "CB-012",
+      "unit_price": 0.197,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Mailer Box section"
+    },
+    {
+      "description_as_quoted": "CB-018 (600x450x400mm, 3-ply) at USD 0.342 per piece",
+      "matched_rfx_sku": "CB-018",
+      "unit_price": 0.342,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Mailer Box section"
+    },
+    {
+      "description_as_quoted": "CB-024 (750x550x500mm, 3-ply) at USD 0.558 per piece",
+      "matched_rfx_sku": "CB-024",
+      "unit_price": 0.558,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Mailer Box section"
+    },
+    {
+      "description_as_quoted": "CB-030 (950x700x600mm, 3-ply) at USD 0.879 per piece",
+      "matched_rfx_sku": "CB-030",
+      "unit_price": 0.879,
+      "unit_of_measure": "per piece",
+      "confidence": "high",
+      "flags": [
+        "currency_not_inr"
+      ],
+      "source_snippet": "Mailer Box section"
+    }
+  ],
+  "pricing_rules": [],
+  "document_level_adjustments": [
+    {
+      "description": "Prices subject to re-quotation if order quantities vary by more than 15% from RFQ-indicated annual volumes (applies to every category)",
+      "adjustment_pct": null,
+      "source_snippet": "subject to re-quotation should quantities vary by more than 15%"
+    }
+  ],
+  "questionnaire": {
+    "moq": "2000 pcs per SKU",
+    "lead_time_days": "average 20 days from PO confirmation",
+    "payment_terms": "Letter of Credit at sight",
+    "freight_terms": "FOB Chennai per cover page; but Commercial & Quality Terms section states 'Freight: FOB Nhava Sheva' - inconsistent",
+    "iso_9001": "Not currently certified; ISO 9001:2015 application in progress, expected within two quarters. Holds ISO 14001.",
+    "recycled_content_pct": "average 40%",
+    "defect_rate_pct": "not exceeding 3.0%"
+  },
+  "extraction_notes": "All 30 RFx SKUs are quoted with clear per-piece USD prices, organized by product category rather than a single table; matching to SKUs is high-confidence since dimensions/ply are stated alongside each SKU code. Note a document inconsistency: the cover page states \"FOB Chennai\" but the Commercial & Quality Terms section states \"Freight: FOB Nhava Sheva\" - flagged as ambiguous/contradictory freight term. A blanket condition allows re-quotation if quantities vary >15% from RFQ volumes, recorded as a document-level adjustment (non-quantifiable). ISO 9001 not yet held (only ISO 14001), with 9001 application in progress - flagged since RFx questionnaire likely expects current certification status."
 }

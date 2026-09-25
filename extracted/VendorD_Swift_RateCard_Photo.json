@@ -1,293 +1,318 @@
 {
   "vendor_name_as_stated": "SWIFT PRINT & PACK",
-  "currency_stated": "INR (stated as \"Rs\")",
+  "currency_stated": "INR",
+  "currency_evidence": "\"Rs\" prefix on all rate column entries",
   "line_items": [
     {
-      "description_as_quoted": "CB-001 E-comm Shipping Box (RSC), 150x100x80",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 150x100x80",
       "matched_rfx_sku": "CB-001",
       "unit_price": 589,
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "CB-001 | 150x100x80 | Rs 589"
+      "source_snippet": "row CB-001, Rate/100pc column"
     },
     {
-      "description_as_quoted": "CB-002 E-comm Shipping Box (RSC), 200x150x100",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 200x150x100",
       "matched_rfx_sku": "CB-002",
       "unit_price": 593,
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "CB-002 | 200x150x100 | Rs 593"
+      "source_snippet": "row CB-002"
     },
     {
-      "description_as_quoted": "CB-003 Retail Display Box, 230x180x120",
+      "description_as_quoted": "Retail Display Box, 230x180x120",
       "matched_rfx_sku": "CB-003",
       "unit_price": 640,
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "CB-003 | 230x180x120 | Rs 640"
+      "source_snippet": "row CB-003"
     },
     {
-      "description_as_quoted": "CB-004 Heavy Duty Export Box, 250x200x150",
+      "description_as_quoted": "Heavy Duty Export Box, 250x200x150",
       "matched_rfx_sku": "CB-004",
       "unit_price": 704,
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "CB-004 | 250x200x150 | Rs 704"
+      "source_snippet": "row CB-004"
     },
     {
-      "description_as_quoted": "CB-005 Pallet Box, 300x200x150",
+      "description_as_quoted": "Pallet Box, 300x200x150",
       "matched_rfx_sku": "CB-005",
       "unit_price": 805,
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "CB-005 | 300x200x150 | Rs 805"
+      "source_snippet": "row CB-005"
     },
     {
-      "description_as_quoted": "CB-006 Mailer Box, 300x250x200",
+      "description_as_quoted": "Mailer Box, 300x250x200",
       "matched_rfx_sku": "CB-006",
       "unit_price": 629,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "high",
-      "flags": [],
-      "source_snippet": "CB-006 | 300x250x200 | Rs 629"
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous"
+      ],
+      "source_snippet": "row CB-006 - dims row alignment slightly ambiguous due to photo skew"
     },
     {
-      "description_as_quoted": "CB-007 E-comm Shipping Box (RSC), 350x250x200",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 350x250x200",
       "matched_rfx_sku": "CB-007",
       "unit_price": 706,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "high",
-      "flags": [],
-      "source_snippet": "CB-007 | 350x250x200 | Rs 706"
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous"
+      ],
+      "source_snippet": "row CB-007"
     },
     {
-      "description_as_quoted": "CB-008 E-comm Shipping Box (RSC), 350x300x250",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 350x300x250",
       "matched_rfx_sku": "CB-008",
       "unit_price": 1662,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "high",
-      "flags": [],
-      "source_snippet": "CB-008 | 350x300x250 | Rs 1662"
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous"
+      ],
+      "source_snippet": "row CB-008"
     },
     {
-      "description_as_quoted": "CB-009 Retail Display Box, 400x300x200",
+      "description_as_quoted": "Retail Display Box, 400x300x200",
       "matched_rfx_sku": "CB-009",
       "unit_price": 907,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "high",
-      "flags": [],
-      "source_snippet": "CB-009 | 400x300x200 | Rs 907"
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous"
+      ],
+      "source_snippet": "row CB-009"
     },
     {
-      "description_as_quoted": "CB-010 Heavy Duty Export Box, 400x300x250",
+      "description_as_quoted": "Heavy Duty Export Box, 400x300x250",
       "matched_rfx_sku": "CB-010",
       "unit_price": 1838,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "high",
-      "flags": [],
-      "source_snippet": "CB-010 | 400x300x250 | Rs 1838"
+      "confidence": "medium",
+      "flags": [
+        "unit_ambiguous"
+      ],
+      "source_snippet": "row CB-010"
     },
     {
-      "description_as_quoted": "CB-012 Mailer Box, 450x350x300",
+      "description_as_quoted": "Mailer Box, 500x350x300",
       "matched_rfx_sku": "CB-012",
       "unit_price": 1412,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-012 | 450x350x300 | Rs 1412"
+      "source_snippet": "row CB-012 (CB-011 missing from card)"
     },
     {
-      "description_as_quoted": "CB-013 E-comm Shipping Box (RSC), 500x350x300",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x300",
       "matched_rfx_sku": "CB-013",
       "unit_price": 1546,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-013 | 500x350x300 | Rs 1546"
+      "source_snippet": "row CB-013"
     },
     {
-      "description_as_quoted": "CB-014 E-comm Shipping Box (RSC), 500x400x300",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x350",
       "matched_rfx_sku": "CB-014",
       "unit_price": 3079,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-014 | 500x400x300 | Rs 3079"
+      "source_snippet": "row CB-014"
     },
     {
-      "description_as_quoted": "CB-015 Retail Display Box, 500x400x350",
+      "description_as_quoted": "Retail Display Box, 550x400x350",
       "matched_rfx_sku": "CB-015",
       "unit_price": 1860,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-015 | 500x400x350 | Rs 1860"
+      "source_snippet": "row CB-015"
     },
     {
-      "description_as_quoted": "CB-016 Heavy Duty Export Box, 550x400x350",
+      "description_as_quoted": "Heavy Duty Export Box, 600x400x350",
       "matched_rfx_sku": "CB-016",
       "unit_price": 3430,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-016 | 550x400x350 | Rs 3430"
+      "source_snippet": "row CB-016"
     },
     {
-      "description_as_quoted": "CB-017 Pallet Box, 600x400x350",
+      "description_as_quoted": "Pallet Box, 600x450x400",
       "matched_rfx_sku": "CB-017",
       "unit_price": 3817,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-017 | 600x400x350 | Rs 3817"
+      "source_snippet": "row CB-017"
     },
     {
-      "description_as_quoted": "CB-018 Mailer Box, 600x450x400",
+      "description_as_quoted": "Mailer Box, 600x450x450",
       "matched_rfx_sku": "CB-018",
       "unit_price": 2383,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-018 | 600x450x400 | Rs 2383"
+      "source_snippet": "row CB-018"
     },
     {
-      "description_as_quoted": "CB-019 E-comm Shipping Box (RSC), 600x450x450",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 650x450x400",
       "matched_rfx_sku": "CB-019",
       "unit_price": 2552,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-019 | 600x450x450 | Rs 2552"
+      "source_snippet": "row CB-019"
     },
     {
-      "description_as_quoted": "CB-020 E-comm Shipping Box (RSC), 650x450x400",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 700x500x450",
       "matched_rfx_sku": "CB-020",
       "unit_price": 4767,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-020 | 650x450x400 | Rs 4767"
+      "source_snippet": "row CB-020 (CB-021 missing)"
     },
     {
-      "description_as_quoted": "CB-022 Heavy Duty Export Box, 700x500x450",
+      "description_as_quoted": "Heavy Duty Export Box, 700x550x500",
       "matched_rfx_sku": "CB-022",
       "unit_price": 5718,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-022 | 700x500x450 | Rs 5718"
+      "source_snippet": "row CB-022"
     },
     {
-      "description_as_quoted": "CB-023 Pallet Box, 700x550x500",
+      "description_as_quoted": "Pallet Box, 750x550x500",
       "matched_rfx_sku": "CB-023",
       "unit_price": 5974,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-023 | 700x550x500 | Rs 5974"
+      "source_snippet": "row CB-023"
     },
     {
-      "description_as_quoted": "CB-024 Mailer Box, 750x550x500",
+      "description_as_quoted": "Mailer Box, 750x600x500",
       "matched_rfx_sku": "CB-024",
       "unit_price": 3673,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-024 | 750x550x500 | Rs 3673"
+      "source_snippet": "row CB-024"
     },
     {
-      "description_as_quoted": "CB-025 E-comm Shipping Box (RSC), 750x600x500",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 800x600x500",
       "matched_rfx_sku": "CB-025",
       "unit_price": 4216,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-025 | 750x600x500 | Rs 4216"
+      "source_snippet": "row CB-025"
     },
     {
-      "description_as_quoted": "CB-026 E-comm Shipping Box (RSC), 800x600x500",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 800x600x550",
       "matched_rfx_sku": "CB-026",
       "unit_price": 7713,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-026 | 800x600x500 | Rs 7713"
+      "source_snippet": "row CB-026"
     },
     {
-      "description_as_quoted": "CB-027 Retail Display Box, 800x600x550",
+      "description_as_quoted": "Retail Display Box, 850x650x550",
       "matched_rfx_sku": "CB-027",
       "unit_price": 4325,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-027 | 800x600x550 | Rs 4325"
+      "source_snippet": "row CB-027"
     },
     {
-      "description_as_quoted": "CB-028 Heavy Duty Export Box, 850x650x550",
+      "description_as_quoted": "Heavy Duty Export Box, 950x700x600",
       "matched_rfx_sku": "CB-028",
       "unit_price": 9015,
       "unit_of_measure": "per 100 pieces",
       "confidence": "medium",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous"
       ],
-      "source_snippet": "CB-028 | 850x650x550 | Rs 9015"
+      "source_snippet": "row CB-028 (CB-029 missing)"
     },
     {
-      "description_as_quoted": "CB-030 Mailer Box, 950x700x600",
+      "description_as_quoted": "Mailer Box (last row, dims cut off/unclear)",
       "matched_rfx_sku": "CB-030",
       "unit_price": 6328,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
+      "confidence": "low",
       "flags": [
-        "row_misalignment_possible"
+        "unit_ambiguous",
+        "illegible"
       ],
-      "source_snippet": "CB-030 | 950x700x600 | Rs 6328"
+      "source_snippet": "last row, dims column possibly cropped/misaligned"
     }
   ],
   "pricing_rules": [],
+  "document_level_adjustments": [
+    {
+      "description": "Payment terms: 100% advance required",
+      "adjustment_pct": null,
+      "source_snippet": "'Payment: 100% advance' near bottom of card"
+    },
+    {
+      "description": "Freight charged separately, not included in rates",
+      "adjustment_pct": null,
+      "source_snippet": "'Freight: extra' near bottom of card"
+    }
+  ],
   "questionnaire": {
-    "iso_9001": "Yes (handwritten, certificate no. illegible in scan)",
-    "moq": "illegible",
+    "defect_rate_pct": "illegible (handwritten on back of card)",
+    "freight_terms": "extra (not included)",
+    "iso_9001": "Yes (handwritten, certificate number illegible in scan)",
     "lead_time_days": "10 days",
-    "recycled_content_pct": "not stated",
-    "defect_rate_pct": "illegible",
+    "moq": "illegible (handwritten on back of card)",
     "payment_terms": "100% advance",
-    "freight_terms": "extra (not included)"
-  }
+    "recycled_content_pct": "not stated"
+  },
+  "extraction_notes": "This is a photographed rate card taken at an angle, causing some rows to be potentially misaligned between SKU/Description columns and the Dims/Rate columns - exact row correspondence for lower rows (CB-006 onward) is inferred by position and cross-checked against buyer's master dims list, but should be verified against original if possible. Note: SKUs CB-011, CB-021, and CB-029 appear to be missing from this vendor's rate card entirely (no rows for them) - these items were NOT quoted by this vendor. All rates are explicitly stated as 'PER 100 UNITS' (per the red header text), not per piece - this has been preserved as 'per 100 pieces' and should NOT be divided by 100 without going through the deterministic normalization step. Several quality-related answers (defect rate, MOQ, ISO certificate number) were described as handwritten on the back of the card and illegible in this scan - these are marked as illegible rather than guessed. The last row's exact SKU/dims mapping (CB-030) is low confidence due to photo crop/skew at bottom edge."
 }

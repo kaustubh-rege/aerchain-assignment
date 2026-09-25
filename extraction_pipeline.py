@@ -104,14 +104,25 @@ EXTRACTION_TOOL = {
     "description": "Record structured data extracted from one vendor's RFx response.",
     "input_schema": {
         "type": "object",
-        "required": ["vendor_name_as_stated", "currency_stated", "line_items", "pricing_rules",
+        "required": ["vendor_name_as_stated", "currency_stated", "currency_evidence",
+                     "line_items", "pricing_rules", "document_level_adjustments",
                      "questionnaire", "extraction_notes"],
         "properties": {
             "vendor_name_as_stated": {"type": "string"},
             "currency_stated": {
                 "type": "string",
-                "description": "Currency exactly as stated in the source (e.g. 'INR', 'USD', "
-                                "'not specified'). Never assume INR by default."
+                "enum": ["INR", "USD", "EUR", "GBP", "OTHER", "NOT_SPECIFIED"],
+                "description": "The currency code ONLY - no explanation here. If INR is only "
+                                "implied (e.g. a bare 'Rs' prefix, or no symbol at all in an "
+                                "Indian-vendor context), still return 'INR' here and put your "
+                                "reasoning in currency_evidence instead."
+            },
+            "currency_evidence": {
+                "type": "string",
+                "description": "One short phrase on how you determined the currency, e.g. "
+                                "'Rs prefix on rate column' or 'explicitly stated: All prices "
+                                "in USD'. This is where reasoning goes - currency_stated must "
+                                "stay a bare code."
             },
             "line_items": {
                 "type": "array",
@@ -145,8 +156,9 @@ EXTRACTION_TOOL = {
                         },
                         "source_snippet": {
                             "type": "string",
-                            "description": "The verbatim text (or a description of the image "
-                                            "region) that supports this extraction, for audit."
+                            "description": "A SHORT pointer (under 15 words) to where this "
+                                            "value came from - e.g. 'row 14, rate column' or "
+                                            "'footnote at bottom of page 2'. Not a full quote."
                         }
                     }
                 }
@@ -159,6 +171,27 @@ EXTRACTION_TOOL = {
                                 "list (e.g. 'add Rs 3.50/pc over 3-ply rate for 5-ply'). Quote "
                                 "each rule close to verbatim. Do not try to resolve these into "
                                 "per-SKU prices yourself - a separate step does that."
+            },
+            "document_level_adjustments": {
+                "type": "array",
+                "description": "Discounts, surcharges, or conditions that apply across the "
+                                "WHOLE quote rather than one line - especially ones stated in "
+                                "footnotes, endnotes, or small print. This is exactly the kind "
+                                "of thing a buyer retyping numbers into Excel would miss.",
+                "items": {
+                    "type": "object",
+                    "required": ["description", "adjustment_pct", "source_snippet"],
+                    "properties": {
+                        "description": {"type": "string"},
+                        "adjustment_pct": {
+                            "type": ["number", "null"],
+                            "description": "Signed percentage, e.g. -6 for a 6% discount, "
+                                            "+2 for a 2% surcharge. Null if stated but not "
+                                            "quantifiable (e.g. a conditional term)."
+                        },
+                        "source_snippet": {"type": "string"}
+                    }
+                }
             },
             "questionnaire": {
                 "type": "object",
@@ -191,8 +224,8 @@ Rules:
 - Preserve the vendor's own units and currency exactly as stated - do not convert INR/USD or
   per-piece/per-100 yourself. That normalization happens in a later step, deterministically.
 - If a document has a discount, surcharge, or condition in a footnote, endnote, or small print,
-  you must find it and include it - buried conditions are exactly what this system exists to
-  catch.
+  you must find it and record it in document_level_adjustments - buried conditions are exactly
+  what this system exists to catch.
 - If a price applies to a size/ply bracket rather than a specific SKU, record it under
   pricing_rules, not by guessing which SKUs it covers.
 - Flag anything illegible, ambiguous, or missing rather than silently working around it.
@@ -226,18 +259,33 @@ def extract_vendor_document(client, file_path: str, master_items: list[dict]) ->
 
     response = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=4096,
+        max_tokens=8192,
         system=SYSTEM_PROMPT,
         tools=[EXTRACTION_TOOL],
         tool_choice={"type": "tool", "name": "record_vendor_extraction"},
         messages=[{"role": "user", "content": user_content}],
     )
 
+    if response.stop_reason == "max_tokens":
+        print(f"  !! WARNING: hit max_tokens before finishing {Path(file_path).name} - "
+              f"output is likely truncated/incomplete. Raising instead of returning "
+              f"silently-empty data.")
+        raise RuntimeError(
+            f"Truncated tool call for {file_path} (stop_reason=max_tokens). "
+            f"Increase max_tokens further or shorten what the model is asked to write."
+        )
+
     for block in response.content:
         if block.type == "tool_use" and block.name == "record_vendor_extraction":
             return block.input
 
-    raise RuntimeError("Model did not return the expected tool call.")
+    # Nothing usable came back - show exactly why instead of failing silently.
+    text_blocks = [b.text for b in response.content if getattr(b, "type", None) == "text"]
+    raise RuntimeError(
+        f"Model did not return the expected tool call for {file_path}.\n"
+        f"stop_reason={response.stop_reason}\n"
+        f"any text content instead: {text_blocks}"
+    )
 
 
 # --------------------------------------------------------------------------
@@ -266,14 +314,21 @@ def main():
     for fname in vendor_files:
         fpath = data_dir / fname
         print(f"Extracting {fname} ...")
-        result = extract_vendor_document(client, str(fpath), master_items)
+        try:
+            result = extract_vendor_document(client, str(fpath), master_items)
+        except Exception as e:
+            print(f"  !! FAILED: {e}\n")
+            continue
+
         out_path = out_dir / f"{Path(fname).stem}.json"
         out_path.write_text(json.dumps(result, indent=2))
 
         n_items = len(result.get("line_items", []))
         n_rules = len(result.get("pricing_rules", []))
+        n_adj = len(result.get("document_level_adjustments", []))
         n_flags = sum(len(li.get("flags", [])) for li in result.get("line_items", []))
-        print(f"  -> {n_items} line items, {n_rules} pricing rules, {n_flags} flags raised")
+        print(f"  -> {n_items} line items, {n_rules} pricing rules, "
+              f"{n_adj} document-level adjustments, {n_flags} line flags raised")
 
 
 if __name__ == "__main__":

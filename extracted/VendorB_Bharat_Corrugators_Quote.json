@@ -1,336 +1,355 @@
 {
   "vendor_name_as_stated": "BHARAT CORRUGATORS PVT. LTD.",
   "currency_stated": "INR",
+  "currency_evidence": "Column header explicitly labeled \"List Rate (INR/pc)\"",
   "line_items": [
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 150x100x80mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-001 E-comm Shipping Box (RSC), 150x100x80mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-001",
       "unit_price": 6.67,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-001 ... 6.67; footnote: subject to a standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories"
+      "source_snippet": "row CB-001, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 200x150x100mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-002 E-comm Shipping Box (RSC), 200x150x100mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-002",
       "unit_price": 6.74,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-002 ... 6.74"
+      "source_snippet": "row CB-002, rate column"
     },
     {
-      "description_as_quoted": "Retail Display Box, 230x180x120mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-003 Retail Display Box, 230x180x120mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-003",
       "unit_price": 6.66,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-003 ... 6.66"
+      "source_snippet": "row CB-003, rate column"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 250x200x150mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-004 Heavy Duty Export Box, 250x200x150mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-004",
       "unit_price": 7.93,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-004 ... 7.93"
+      "source_snippet": "row CB-004, rate column"
     },
     {
-      "description_as_quoted": "Pallet Box, 300x200x150mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-005 Pallet Box, 300x200x150mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-005",
       "unit_price": 8.95,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-005 ... 8.95"
+      "source_snippet": "row CB-005, rate column"
     },
     {
-      "description_as_quoted": "Mailer Box, 300x250x200mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-006 Mailer Box, 300x250x200mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-006",
       "unit_price": 7.11,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-006 ... 7.11"
+      "source_snippet": "row CB-006, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 350x250x200mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-007 E-comm Shipping Box (RSC), 350x250x200mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-007",
       "unit_price": 8.5,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-007 ... 8.50"
+      "source_snippet": "row CB-007, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 350x300x250mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-008 E-comm Shipping Box (RSC), 350x300x250mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-008",
       "unit_price": 18.58,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-008 ... 18.58"
+      "source_snippet": "row CB-008, rate column"
     },
     {
-      "description_as_quoted": "Retail Display Box, 400x300x200mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-009 Retail Display Box, 400x300x200mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-009",
       "unit_price": 10.51,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-009 ... 10.51"
+      "source_snippet": "row CB-009, rate column"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 400x300x250mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-010 Heavy Duty Export Box, 400x300x250mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-010",
       "unit_price": 19.98,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-010 ... 19.98"
+      "source_snippet": "row CB-010, rate column"
     },
     {
-      "description_as_quoted": "Pallet Box, 450x350x250mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-011 Pallet Box, 450x350x250mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-011",
       "unit_price": 23.38,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-011 ... 23.38"
+      "source_snippet": "row CB-011, rate column"
     },
     {
-      "description_as_quoted": "Mailer Box, 450x350x300mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-012 Mailer Box, 450x350x300mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-012",
       "unit_price": 15.2,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-012 ... 15.20"
+      "source_snippet": "row CB-012, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 500x350x300mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-013 E-comm Shipping Box (RSC), 500x350x300mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-013",
       "unit_price": 16.54,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-013 ... 16.54"
+      "source_snippet": "row CB-013, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x300mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-014 E-comm Shipping Box (RSC), 500x400x300mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-014",
       "unit_price": 30.04,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-014 ... 30.04"
+      "source_snippet": "row CB-014, rate column"
     },
     {
-      "description_as_quoted": "Retail Display Box, 500x400x350mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-015 Retail Display Box, 500x400x350mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-015",
       "unit_price": 20.68,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-015 ... 20.68"
+      "source_snippet": "row CB-015, rate column"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 550x400x350mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-016 Heavy Duty Export Box, 550x400x350mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-016",
       "unit_price": 36.41,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-016 ... 36.41"
+      "source_snippet": "row CB-016, rate column"
     },
     {
-      "description_as_quoted": "Pallet Box, 600x400x350mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-017 Pallet Box, 600x400x350mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-017",
       "unit_price": 40.45,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-017 ... 40.45"
+      "source_snippet": "row CB-017, rate column"
     },
     {
-      "description_as_quoted": "Mailer Box, 600x450x400mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-018 Mailer Box, 600x450x400mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-018",
       "unit_price": 26.79,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-018 ... 26.79"
+      "source_snippet": "row CB-018, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 600x450x450mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-019 E-comm Shipping Box (RSC), 600x450x450mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-019",
       "unit_price": 30.32,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-019 ... 30.32"
+      "source_snippet": "row CB-019, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 650x450x400mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-020 E-comm Shipping Box (RSC), 650x450x400mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-020",
       "unit_price": 50.23,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-020 ... 50.23"
+      "source_snippet": "row CB-020, rate column"
     },
     {
-      "description_as_quoted": "Retail Display Box, 650x500x450mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-021 Retail Display Box, 650x500x450mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-021",
       "unit_price": 31.55,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-021 ... 31.55"
+      "source_snippet": "row CB-021, rate column"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 700x500x450mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-022 Heavy Duty Export Box, 700x500x450mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-022",
       "unit_price": 57.63,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-022 ... 57.63"
+      "source_snippet": "row CB-022, rate column"
     },
     {
-      "description_as_quoted": "Pallet Box, 700x550x500mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-023 Pallet Box, 700x550x500mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-023",
       "unit_price": 69.64,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-023 ... 69.64"
+      "source_snippet": "row CB-023, rate column"
     },
     {
-      "description_as_quoted": "Mailer Box, 750x550x500mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-024 Mailer Box, 750x550x500mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-024",
       "unit_price": 41.56,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-024 ... 41.56"
+      "source_snippet": "row CB-024, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 750x600x500mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-025 E-comm Shipping Box (RSC), 750x600x500mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-025",
       "unit_price": 46.02,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-025 ... 46.02"
+      "source_snippet": "row CB-025, rate column"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 800x600x500mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-026 E-comm Shipping Box (RSC), 800x600x500mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-026",
       "unit_price": 77.74,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-026 ... 77.74"
+      "source_snippet": "row CB-026, rate column"
     },
     {
-      "description_as_quoted": "Retail Display Box, 800x600x550mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-027 Retail Display Box, 800x600x550mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-027",
       "unit_price": 47.13,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-027 ... 47.13"
+      "source_snippet": "row CB-027, rate column"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 850x650x550mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-028 Heavy Duty Export Box, 850x650x550mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-028",
       "unit_price": 92.67,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-028 ... 92.67"
+      "source_snippet": "row CB-028, rate column"
     },
     {
-      "description_as_quoted": "Pallet Box, 900x650x600mm, 5-Ply Corrugated",
+      "description_as_quoted": "CB-029 Pallet Box, 900x650x600mm, 5-Ply Corrugated",
       "matched_rfx_sku": "CB-029",
       "unit_price": 103.26,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-029 ... 103.26"
+      "source_snippet": "row CB-029, rate column"
     },
     {
-      "description_as_quoted": "Mailer Box, 950x700x600mm, 3-Ply Corrugated",
+      "description_as_quoted": "CB-030 Mailer Box, 950x700x600mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-030",
       "unit_price": 63.56,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [
-        "price_in_footnote"
+        "price_in_footnote_discount_applies"
       ],
-      "source_snippet": "CB-030 ... 63.56"
+      "source_snippet": "row CB-030, rate column"
     }
-  ]
+  ],
+  "pricing_rules": [],
+  "document_level_adjustments": [
+    {
+      "description": "Standing 6% volume discount for empanelled buyers ordering across 3+ SKU categories in a single PO, applied at invoicing (list rates shown are pre-discount)",
+      "adjustment_pct": -6,
+      "source_snippet": "Page 2 footnote: 'subject to a standing 6% volume discount ... applied at invoicing'"
+    }
+  ],
+  "questionnaire": {
+    "moq": "1000 pcs per SKU",
+    "lead_time_days": "15 days (average)",
+    "payment_terms": "30 days credit",
+    "freight_terms": "Extra, at actuals",
+    "iso_9001": "Yes, ISO 9001:2015 Certified",
+    "recycled_content_pct": "55%",
+    "defect_rate_pct": "2.0% (Defect Rate Guarantee)"
+  },
+  "extraction_notes": "All 30 SKUs matched directly to RFx master list by SKU code, description, and dimensions. Quote states list rates are asterisked and subject to a 6% volume discount at invoicing per footnote on page 2 (condition: empanelled buyer ordering across 3+ SKU categories in single PO) - flagged on every line item as this could be missed if only page 1 is reviewed. Validity of quote is 21 days from 21-Sep-2026. No per-SKU deviations or illegible text noted; all values clearly printed in tabular format."
 }

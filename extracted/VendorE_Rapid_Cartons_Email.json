@@ -1,0 +1,23 @@
+{
+  "vendor_name_as_stated": "Rapid Cartons",
+  "currency_stated": "INR",
+  "line_items": [],
+  "pricing_rules": [
+    "3-ply boxes up to 400x300x250mm - Rs 6.20/pc",
+    "3-ply boxes above that size - Rs 9/pc",
+    "5-ply - add Rs 3.50/pc over the 3-ply rate for same size bracket",
+    "Heavy duty / pallet boxes - standard rate +40%",
+    "rest same as last year, freight extra",
+    "Orders above 10,000 pcs per SKU get 4% off"
+  ],
+  "questionnaire": {
+    "moq": null,
+    "lead_time_days": null,
+    "payment_terms": null,
+    "freight_terms": "Freight extra (exact terms not specified)",
+    "iso_9001": null,
+    "defect_rate_pct": null,
+    "recycled_content_pct": null
+  },
+  "extraction_notes": "Vendor provided no per-SKU price list; instead gave category-level pricing rules based on ply and size bracket, plus a volume discount and a surcharge for heavy duty/pallet boxes. Because these rules are bracket-based rather than SKU-specific, no line_items could be extracted directly - a downstream step will need to map these rules to specific SKUs using ply and dims_mm from the master list. Ambiguities/missing info flagged: (1) 'rest same as last year' references an undefined baseline (last year's pricing sheet not provided/attached), so it's unclear what this covers or its actual values; (2) 'standard rate +40%' for heavy duty/pallet boxes doesn't specify whether it's +40% on the 3-ply base rate, the 5-ply adjusted rate, or something else; (3) freight terms are vague ('freight extra') with no specific Incoterm or amount; (4) no MOQ, lead time, payment terms, ISO 9001 certification status, defect rate, or recycled content percentage were provided - vendor says quality certificates will be sent separately; (5) the 4% discount threshold is per-SKU annual quantity exceeding 10,000 pcs, which should be cross-checked against the master list's annual_qty_pcs field per SKU.</extraction_notes>\n</invoke>\n"
+}

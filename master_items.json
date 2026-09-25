@@ -1,0 +1,272 @@
+[
+  {
+    "sku": "CB-001",
+    "description": "E-comm Shipping Box (RSC), 150x100x80mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "150x100x80",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 6.0
+  },
+  {
+    "sku": "CB-002",
+    "description": "E-comm Shipping Box (RSC), 200x150x100mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "200x150x100",
+    "annual_qty_pcs": 2000,
+    "base_price_inr": 6.0
+  },
+  {
+    "sku": "CB-003",
+    "description": "Retail Display Box, 230x180x120mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "230x180x120",
+    "annual_qty_pcs": 10000,
+    "base_price_inr": 6.0
+  },
+  {
+    "sku": "CB-004",
+    "description": "Heavy Duty Export Box, 250x200x150mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "250x200x150",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 7.04
+  },
+  {
+    "sku": "CB-005",
+    "description": "Pallet Box, 300x200x150mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "300x200x150",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 8.09
+  },
+  {
+    "sku": "CB-006",
+    "description": "Mailer Box, 300x250x200mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "300x250x200",
+    "annual_qty_pcs": 5000,
+    "base_price_inr": 6.54
+  },
+  {
+    "sku": "CB-007",
+    "description": "E-comm Shipping Box (RSC), 350x250x200mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "350x250x200",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 7.33
+  },
+  {
+    "sku": "CB-008",
+    "description": "E-comm Shipping Box (RSC), 350x300x250mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "350x300x250",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 16.02
+  },
+  {
+    "sku": "CB-009",
+    "description": "Retail Display Box, 400x300x200mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "400x300x200",
+    "annual_qty_pcs": 20000,
+    "base_price_inr": 9.19
+  },
+  {
+    "sku": "CB-010",
+    "description": "Heavy Duty Export Box, 400x300x250mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "400x300x250",
+    "annual_qty_pcs": 2000,
+    "base_price_inr": 17.67
+  },
+  {
+    "sku": "CB-011",
+    "description": "Pallet Box, 450x350x250mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "450x350x250",
+    "annual_qty_pcs": 2000,
+    "base_price_inr": 21.42
+  },
+  {
+    "sku": "CB-012",
+    "description": "Mailer Box, 450x350x300mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "450x350x300",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 14.04
+  },
+  {
+    "sku": "CB-013",
+    "description": "E-comm Shipping Box (RSC), 500x350x300mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "500x350x300",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 15.19
+  },
+  {
+    "sku": "CB-014",
+    "description": "E-comm Shipping Box (RSC), 500x400x300mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "500x400x300",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 28.15
+  },
+  {
+    "sku": "CB-015",
+    "description": "Retail Display Box, 500x400x350mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "500x400x350",
+    "annual_qty_pcs": 2000,
+    "base_price_inr": 18.19
+  },
+  {
+    "sku": "CB-016",
+    "description": "Heavy Duty Export Box, 550x400x350mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "550x400x350",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 33.1
+  },
+  {
+    "sku": "CB-017",
+    "description": "Pallet Box, 600x400x350mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "600x400x350",
+    "annual_qty_pcs": 20000,
+    "base_price_inr": 35.34
+  },
+  {
+    "sku": "CB-018",
+    "description": "Mailer Box, 600x450x400mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "600x450x400",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 24.38
+  },
+  {
+    "sku": "CB-019",
+    "description": "E-comm Shipping Box (RSC), 600x450x450mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "600x450x450",
+    "annual_qty_pcs": 25000,
+    "base_price_inr": 26.23
+  },
+  {
+    "sku": "CB-020",
+    "description": "E-comm Shipping Box (RSC), 650x450x400mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "650x450x400",
+    "annual_qty_pcs": 10000,
+    "base_price_inr": 43.88
+  },
+  {
+    "sku": "CB-021",
+    "description": "Retail Display Box, 650x500x450mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "650x500x450",
+    "annual_qty_pcs": 2000,
+    "base_price_inr": 29.76
+  },
+  {
+    "sku": "CB-022",
+    "description": "Heavy Duty Export Box, 700x500x450mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "700x500x450",
+    "annual_qty_pcs": 5000,
+    "base_price_inr": 53.31
+  },
+  {
+    "sku": "CB-023",
+    "description": "Pallet Box, 700x550x500mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "700x550x500",
+    "annual_qty_pcs": 20000,
+    "base_price_inr": 60.5
+  },
+  {
+    "sku": "CB-024",
+    "description": "Mailer Box, 750x550x500mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "750x550x500",
+    "annual_qty_pcs": 15000,
+    "base_price_inr": 37.54
+  },
+  {
+    "sku": "CB-025",
+    "description": "E-comm Shipping Box (RSC), 750x600x500mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "750x600x500",
+    "annual_qty_pcs": 10000,
+    "base_price_inr": 39.74
+  },
+  {
+    "sku": "CB-026",
+    "description": "E-comm Shipping Box (RSC), 800x600x500mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "800x600x500",
+    "annual_qty_pcs": 5000,
+    "base_price_inr": 70.69
+  },
+  {
+    "sku": "CB-027",
+    "description": "Retail Display Box, 800x600x550mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "800x600x550",
+    "annual_qty_pcs": 8000,
+    "base_price_inr": 44.16
+  },
+  {
+    "sku": "CB-028",
+    "description": "Heavy Duty Export Box, 850x650x550mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "850x650x550",
+    "annual_qty_pcs": 15000,
+    "base_price_inr": 82.52
+  },
+  {
+    "sku": "CB-029",
+    "description": "Pallet Box, 900x650x600mm, 5-Ply Corrugated",
+    "ply": 5,
+    "gsm": 180,
+    "dims_mm": "900x650x600",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 90.75
+  },
+  {
+    "sku": "CB-030",
+    "description": "Mailer Box, 950x700x600mm, 3-Ply Corrugated",
+    "ply": 3,
+    "gsm": 120,
+    "dims_mm": "950x700x600",
+    "annual_qty_pcs": 3000,
+    "base_price_inr": 58.47
+  }
+]

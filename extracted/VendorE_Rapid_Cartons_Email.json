@@ -1,11 +1,11 @@
 {
   "vendor_name_as_stated": "Rapid Cartons",
   "currency_stated": "INR",
-  "currency_evidence": "\"Rs\" prefix used on rate figures (e.g. \"Rs 6.20/pc\")",
+  "currency_evidence": "\"Rs\" prefix on rate figures",
   "line_items": [],
   "pricing_rules": [
     "3-ply boxes up to 400x300x250mm - Rs 6.20/pc",
-    "3-ply boxes above 400x300x250mm - Rs 9/pc",
+    "3-ply boxes above that size - Rs 9/pc",
     "5-ply - add Rs 3.50/pc over the 3-ply rate for same size bracket",
     "Heavy duty / pallet boxes - standard rate +40%",
     "rest same as last year, freight extra"
@@ -17,24 +17,24 @@
       "source_snippet": "Orders above 10,000 pcs per SKU get 4% off"
     },
     {
-      "description": "Freight not included in quoted rates, charged extra",
+      "description": "Freight not included in quoted rates, billed separately",
       "adjustment_pct": null,
       "source_snippet": "freight extra"
     },
     {
-      "description": "Ambiguous reference to unspecified prior pricing for items not covered by stated brackets",
+      "description": "Reference to unspecified prior pricing for unlisted categories",
       "adjustment_pct": null,
       "source_snippet": "rest same as last year"
     }
   ],
   "questionnaire": {
-    "defect_rate_pct": null,
-    "freight_terms": "Freight extra (not included in quoted prices)",
-    "iso_9001": null,
-    "lead_time_days": null,
     "moq": null,
+    "lead_time_days": null,
     "payment_terms": null,
+    "freight_terms": "Freight extra (not included in quoted price)",
+    "iso_9001": null,
+    "defect_rate_pct": null,
     "recycled_content_pct": null
   },
-  "extraction_notes": "Vendor did not provide a per-SKU price list; pricing is given entirely as category/bracket rules based on ply and size, plus a heavy-duty/pallet surcharge and a volume discount - these cannot be reliably mapped to specific SKUs without further calculation, so no line_items were extracted. The phrase \"rest same as last year, freight extra\" is vague - \"rest\" presumably refers to sizes/brackets not explicitly priced (e.g. very large sizes), but the actual legacy prices were not provided in this document, so this is a gap. Quality/ISO certificates were promised separately but not included (\"our guy is on leave this week\") - no certification data available. No MOQ, lead time, payment terms, defect rate, or recycled content info given."
+  "extraction_notes": "Vendor gave category-level pricing rules (by ply and size bracket) rather than a per-SKU price list, so no line_items could be extracted with confident SKU matches - all pricing captured under pricing_rules for downstream resolution. Ambiguities: 'standard rate' for heavy duty/pallet boxes is not clearly defined (unclear if it means the 3-ply or 5-ply base rate before the +40% surcharge). 'rest same as last year' references undocumented prior pricing not available in this document - flag as missing data. Quality/compliance certificates were not provided ('will send separately'), so no ISO or defect rate data available. No MOQ, lead time, or payment terms stated.</extraction_notes>\n</invoke>\n"
 }

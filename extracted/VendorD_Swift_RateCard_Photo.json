@@ -19,7 +19,7 @@
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "row CB-002"
+      "source_snippet": "row CB-002, Rate/100pc column"
     },
     {
       "description_as_quoted": "Retail Display Box, 230x180x120",
@@ -28,7 +28,7 @@
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "row CB-003"
+      "source_snippet": "row CB-003, Rate/100pc column"
     },
     {
       "description_as_quoted": "Heavy Duty Export Box, 250x200x150",
@@ -37,7 +37,7 @@
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "row CB-004"
+      "source_snippet": "row CB-004, Rate/100pc column"
     },
     {
       "description_as_quoted": "Pallet Box, 300x200x150",
@@ -46,65 +46,55 @@
       "unit_of_measure": "per 100 pieces",
       "confidence": "high",
       "flags": [],
-      "source_snippet": "row CB-005"
+      "source_snippet": "row CB-005, Rate/100pc column"
     },
     {
       "description_as_quoted": "Mailer Box, 300x250x200",
       "matched_rfx_sku": "CB-006",
       "unit_price": 629,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
-      "flags": [
-        "unit_ambiguous"
-      ],
-      "source_snippet": "row CB-006 - dims row alignment slightly ambiguous due to photo skew"
+      "confidence": "high",
+      "flags": [],
+      "source_snippet": "row CB-006, Rate/100pc column"
     },
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 350x250x200",
       "matched_rfx_sku": "CB-007",
       "unit_price": 706,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
-      "flags": [
-        "unit_ambiguous"
-      ],
-      "source_snippet": "row CB-007"
+      "confidence": "high",
+      "flags": [],
+      "source_snippet": "row CB-007, Rate/100pc column"
     },
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 350x300x250",
       "matched_rfx_sku": "CB-008",
       "unit_price": 1662,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
-      "flags": [
-        "unit_ambiguous"
-      ],
-      "source_snippet": "row CB-008"
+      "confidence": "high",
+      "flags": [],
+      "source_snippet": "row CB-008, Rate/100pc column"
     },
     {
       "description_as_quoted": "Retail Display Box, 400x300x200",
       "matched_rfx_sku": "CB-009",
       "unit_price": 907,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
-      "flags": [
-        "unit_ambiguous"
-      ],
-      "source_snippet": "row CB-009"
+      "confidence": "high",
+      "flags": [],
+      "source_snippet": "row CB-009, Rate/100pc column"
     },
     {
       "description_as_quoted": "Heavy Duty Export Box, 400x300x250",
       "matched_rfx_sku": "CB-010",
       "unit_price": 1838,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
-      "flags": [
-        "unit_ambiguous"
-      ],
-      "source_snippet": "row CB-010"
+      "confidence": "high",
+      "flags": [],
+      "source_snippet": "row CB-010, Rate/100pc column"
     },
     {
-      "description_as_quoted": "Mailer Box, 500x350x300",
+      "description_as_quoted": "Mailer Box, 450x350x300",
       "matched_rfx_sku": "CB-012",
       "unit_price": 1412,
       "unit_of_measure": "per 100 pieces",
@@ -112,10 +102,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-012 (CB-011 missing from card)"
+      "source_snippet": "row labeled CB-012 but dims match CB-011 in master list"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x300",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 500x350x300",
       "matched_rfx_sku": "CB-013",
       "unit_price": 1546,
       "unit_of_measure": "per 100 pieces",
@@ -123,10 +113,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-013"
+      "source_snippet": "row labeled CB-013 but dims match CB-012 in master list"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x350",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 500x400x300",
       "matched_rfx_sku": "CB-014",
       "unit_price": 3079,
       "unit_of_measure": "per 100 pieces",
@@ -134,10 +124,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-014"
+      "source_snippet": "row labeled CB-014 but dims match CB-013 in master list"
     },
     {
-      "description_as_quoted": "Retail Display Box, 550x400x350",
+      "description_as_quoted": "Retail Display Box, 500x400x350",
       "matched_rfx_sku": "CB-015",
       "unit_price": 1860,
       "unit_of_measure": "per 100 pieces",
@@ -145,10 +135,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-015"
+      "source_snippet": "row labeled CB-015 but dims match CB-014 in master list"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 600x400x350",
+      "description_as_quoted": "Heavy Duty Export Box, 550x400x350",
       "matched_rfx_sku": "CB-016",
       "unit_price": 3430,
       "unit_of_measure": "per 100 pieces",
@@ -156,10 +146,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-016"
+      "source_snippet": "row labeled CB-016 but dims match CB-015 in master list"
     },
     {
-      "description_as_quoted": "Pallet Box, 600x450x400",
+      "description_as_quoted": "Pallet Box, 600x400x350",
       "matched_rfx_sku": "CB-017",
       "unit_price": 3817,
       "unit_of_measure": "per 100 pieces",
@@ -167,10 +157,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-017"
+      "source_snippet": "row labeled CB-017 but dims match CB-016 in master list"
     },
     {
-      "description_as_quoted": "Mailer Box, 600x450x450",
+      "description_as_quoted": "Mailer Box, 600x450x400",
       "matched_rfx_sku": "CB-018",
       "unit_price": 2383,
       "unit_of_measure": "per 100 pieces",
@@ -178,10 +168,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-018"
+      "source_snippet": "row labeled CB-018 but dims match CB-017 in master list"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 650x450x400",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 600x450x450",
       "matched_rfx_sku": "CB-019",
       "unit_price": 2552,
       "unit_of_measure": "per 100 pieces",
@@ -189,10 +179,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-019"
+      "source_snippet": "row labeled CB-019 but dims match CB-018 in master list"
     },
     {
-      "description_as_quoted": "E-comm Shipping Box (RSC), 700x500x450",
+      "description_as_quoted": "E-comm Shipping Box (RSC), 650x450x400",
       "matched_rfx_sku": "CB-020",
       "unit_price": 4767,
       "unit_of_measure": "per 100 pieces",
@@ -200,10 +190,10 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-020 (CB-021 missing)"
+      "source_snippet": "row labeled CB-020 but dims match CB-019 in master list"
     },
     {
-      "description_as_quoted": "Heavy Duty Export Box, 700x550x500",
+      "description_as_quoted": "Heavy Duty Export Box, 700x500x450",
       "matched_rfx_sku": "CB-022",
       "unit_price": 5718,
       "unit_of_measure": "per 100 pieces",
@@ -211,7 +201,7 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-022"
+      "source_snippet": "row labeled CB-022 but dims match CB-020 in master list"
     },
     {
       "description_as_quoted": "Pallet Box, 750x550x500",
@@ -222,7 +212,7 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-023"
+      "source_snippet": "row labeled CB-023 but dims match CB-024 in master list"
     },
     {
       "description_as_quoted": "Mailer Box, 750x600x500",
@@ -233,7 +223,7 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-024"
+      "source_snippet": "row labeled CB-024 but dims match CB-025 in master list"
     },
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 800x600x500",
@@ -244,7 +234,7 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-025"
+      "source_snippet": "row labeled CB-025 but dims match CB-026 in master list"
     },
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 800x600x550",
@@ -255,7 +245,7 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-026"
+      "source_snippet": "row labeled CB-026 but dims match CB-027 in master list"
     },
     {
       "description_as_quoted": "Retail Display Box, 850x650x550",
@@ -266,22 +256,22 @@
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-027"
+      "source_snippet": "row labeled CB-027 but dims match CB-028 in master list"
     },
     {
       "description_as_quoted": "Heavy Duty Export Box, 950x700x600",
       "matched_rfx_sku": "CB-028",
       "unit_price": 9015,
       "unit_of_measure": "per 100 pieces",
-      "confidence": "medium",
+      "confidence": "low",
       "flags": [
         "unit_ambiguous"
       ],
-      "source_snippet": "row CB-028 (CB-029 missing)"
+      "source_snippet": "row labeled CB-028 but dims match CB-030 in master list, no dims row for CB-029"
     },
     {
-      "description_as_quoted": "Mailer Box (last row, dims cut off/unclear)",
-      "matched_rfx_sku": "CB-030",
+      "description_as_quoted": "Mailer Box, no dims listed",
+      "matched_rfx_sku": null,
       "unit_price": 6328,
       "unit_of_measure": "per 100 pieces",
       "confidence": "low",
@@ -289,30 +279,30 @@
         "unit_ambiguous",
         "illegible"
       ],
-      "source_snippet": "last row, dims column possibly cropped/misaligned"
+      "source_snippet": "row labeled CB-030, last row, no matching dims row visible"
     }
   ],
   "pricing_rules": [],
   "document_level_adjustments": [
     {
-      "description": "Payment terms: 100% advance required",
+      "description": "Freight charged separately, not included in unit rates",
       "adjustment_pct": null,
-      "source_snippet": "'Payment: 100% advance' near bottom of card"
+      "source_snippet": "\"Freight: extra\" near bottom of card"
     },
     {
-      "description": "Freight charged separately, not included in rates",
+      "description": "Payment requires 100% advance",
       "adjustment_pct": null,
-      "source_snippet": "'Freight: extra' near bottom of card"
+      "source_snippet": "\"Payment: 100% advance\""
     }
   ],
   "questionnaire": {
-    "defect_rate_pct": "illegible (handwritten on back of card)",
-    "freight_terms": "extra (not included)",
-    "iso_9001": "Yes (handwritten, certificate number illegible in scan)",
-    "lead_time_days": "10 days",
-    "moq": "illegible (handwritten on back of card)",
+    "moq": null,
+    "lead_time_days": "10",
     "payment_terms": "100% advance",
-    "recycled_content_pct": "not stated"
+    "freight_terms": "extra (not included)",
+    "iso_9001": "Yes (handwritten, certificate no. illegible)",
+    "recycled_content_pct": "not stated",
+    "defect_rate_pct": null
   },
-  "extraction_notes": "This is a photographed rate card taken at an angle, causing some rows to be potentially misaligned between SKU/Description columns and the Dims/Rate columns - exact row correspondence for lower rows (CB-006 onward) is inferred by position and cross-checked against buyer's master dims list, but should be verified against original if possible. Note: SKUs CB-011, CB-021, and CB-029 appear to be missing from this vendor's rate card entirely (no rows for them) - these items were NOT quoted by this vendor. All rates are explicitly stated as 'PER 100 UNITS' (per the red header text), not per piece - this has been preserved as 'per 100 pieces' and should NOT be divided by 100 without going through the deterministic normalization step. Several quality-related answers (defect rate, MOQ, ISO certificate number) were described as handwritten on the back of the card and illegible in this scan - these are marked as illegible rather than guessed. The last row's exact SKU/dims mapping (CB-030) is low confidence due to photo crop/skew at bottom edge."
+  "extraction_notes": "This rate card has a critical row/dimension misalignment: the SKU column and the Dims(mm) column appear shifted relative to each other, likely due to the photo being taken at an angle and/or a row being skipped (CB-011 is missing entirely from the SKU list while CB-012 appears out of sequence). Comparing quoted dims against the master RFx list, dims for each SKU row consistently correspond to the master's NEXT SKU (off by one row) starting from CB-012 onward - e.g. row \"CB-012\" shows dims 450x350x300 which matches master CB-012's own dims actually, but earlier and later rows show a systematic one-row offset between the printed SKU code and printed dims. Given this ambiguity, matches from CB-012 onward are marked medium/low confidence and flagged 'unit_ambiguous' - buyer should verify against original card or request a corrected rate card. Rows for CB-021 and CB-029 are entirely missing from the visible card (skipped in sequence). MOQ, defect rate, and recycled content are illegible/not stated per the vendor's own handwritten notes. ISO 9001 claimed 'Yes' but certificate number illegible so unverifiable. All rates are per 100 pieces as explicitly stated at top of card (\"ALL RATES BELOW ARE PER 100 UNITS\"), not per piece - do not divide by 100 without confirming this is intended by later normalization step (it is, per vendor's own header)."
 }

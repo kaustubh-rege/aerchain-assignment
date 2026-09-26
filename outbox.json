@@ -1,0 +1,796 @@
+[
+  {
+    "timestamp": "2026-09-26T05:52:17.414606+00:00",
+    "to": [
+      "kaustubh.rege94@gmail.com"
+    ],
+    "body": "Subject: RFx - RFQ for corrugated packaging boxes across 30 SKUs, covering E-comm Shipping Boxes (RSC), Retail Display Boxes, Heavy Duty Export Boxes, Pallet Boxes, and Mailer Boxes, in 3-ply (120 GSM) and 5-ply (180 GSM) constructions across a range of dimensions and annual volumes.\n\nRFQ for corrugated packaging boxes across 30 SKUs, covering E-comm Shipping Boxes (RSC), Retail Display Boxes, Heavy Duty Export Boxes, Pallet Boxes, and Mailer Boxes, in 3-ply (120 GSM) and 5-ply (180 GSM) constructions across a range of dimensions and annual volumes.\n\nLine items:\n  PKG-001: E-comm Shipping Box (RSC), 3-Ply Corrugated (150x100x80mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-002: E-comm Shipping Box (RSC), 5-Ply Corrugated (200x150x100mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-003: Retail Display Box, 3-Ply Corrugated (230x180x120mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-004: Heavy Duty Export Box, 5-Ply Corrugated (250x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-005: Pallet Box, 5-Ply Corrugated (300x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-006: Mailer Box, 3-Ply Corrugated (300x250x200mm, 3-ply, 120gsm) - qty 5000/yr\n  PKG-007: E-comm Shipping Box (RSC), 3-Ply Corrugated (350x250x200mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-008: E-comm Shipping Box (RSC), 5-Ply Corrugated (350x300x250mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-009: Retail Display Box, 3-Ply Corrugated (400x300x200mm, 3-ply, 120gsm) - qty 20000/yr\n  PKG-010: Heavy Duty Export Box, 5-Ply Corrugated (400x300x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-011: Pallet Box, 5-Ply Corrugated (450x350x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-012: Mailer Box, 3-Ply Corrugated (450x350x300mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-013: E-comm Shipping Box (RSC), 3-Ply Corrugated (500x350x300mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-014: E-comm Shipping Box (RSC), 5-Ply Corrugated (500x400x300mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-015: Retail Display Box, 3-Ply Corrugated (500x400x350mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-016: Heavy Duty Export Box, 5-Ply Corrugated (550x400x350mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-017: Pallet Box, 5-Ply Corrugated (600x400x350mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-018: Mailer Box, 3-Ply Corrugated (600x450x400mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-019: E-comm Shipping Box (RSC), 3-Ply Corrugated (600x450x450mm, 3-ply, 120gsm) - qty 25000/yr\n  PKG-020: E-comm Shipping Box (RSC), 5-Ply Corrugated (650x450x400mm, 5-ply, 180gsm) - qty 10000/yr\n  PKG-021: Retail Display Box, 3-Ply Corrugated (650x500x450mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-022: Heavy Duty Export Box, 5-Ply Corrugated (700x500x450mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-023: Pallet Box, 5-Ply Corrugated (700x550x500mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-024: Mailer Box, 3-Ply Corrugated (750x550x500mm, 3-ply, 120gsm) - qty 15000/yr\n  PKG-025: E-comm Shipping Box (RSC), 3-Ply Corrugated (750x600x500mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-026: E-comm Shipping Box (RSC), 5-Ply Corrugated (800x600x500mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-027: Retail Display Box, 3-Ply Corrugated (800x600x550mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-028: Heavy Duty Export Box, 5-Ply Corrugated (850x650x550mm, 5-ply, 180gsm) - qty 15000/yr\n  PKG-029: Pallet Box, 5-Ply Corrugated (900x650x600mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-030: Mailer Box, 3-Ply Corrugated (950x700x600mm, 3-ply, 120gsm) - qty 3000/yr\n\nQuality questionnaire:\n  - ISO 9001:2015 certified?\n  - Do you have FSC/PEFC chain-of-custody certification for board sourcing?\n  - Bursting strength (BS) / Edge Crush Test (ECT) values per ply/GSM combination?\n  - Defect rate guarantee / quality claim process?\n  - Compliance with ISTA/ISO transit-testing standards for drop/vibration?\n  - Printing capability (flexo, offset) and color/branding options?\n  - Lead time for first sample/prototype approval?\n  - Environmental compliance (recyclable content %, REACH/RoHS if applicable)?\n\nRequested terms: {'payment_terms_requested': 'Net 45 days', 'delivery_terms_requested': \"FOB buyer's warehouse, staggered monthly deliveries per forecast\", 'quote_validity_days': 90}",
+    "rfx": {
+      "scope": "RFQ for corrugated packaging boxes across 30 SKUs, covering E-comm Shipping Boxes (RSC), Retail Display Boxes, Heavy Duty Export Boxes, Pallet Boxes, and Mailer Boxes, in 3-ply (120 GSM) and 5-ply (180 GSM) constructions across a range of dimensions and annual volumes.",
+      "line_items": [
+        {
+          "sku": "PKG-001",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "150x100x80",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-002",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "200x150x100",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-003",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "230x180x120",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-004",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "250x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-005",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "300x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-006",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "300x250x200",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-007",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "350x250x200",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-008",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "350x300x250",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-009",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "400x300x200",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-010",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "400x300x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-011",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "450x350x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-012",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "450x350x300",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-013",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x350x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-014",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "500x400x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-015",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x400x350",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-016",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "550x400x350",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-017",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "600x400x350",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-018",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x400",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-019",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x450",
+          "annual_qty_pcs": 25000
+        },
+        {
+          "sku": "PKG-020",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "650x450x400",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-021",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "650x500x450",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-022",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x500x450",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-023",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x550x500",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-024",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x550x500",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-025",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x600x500",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-026",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "800x600x500",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-027",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "800x600x550",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-028",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "850x650x550",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-029",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "900x650x600",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-030",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "950x700x600",
+          "annual_qty_pcs": 3000
+        }
+      ],
+      "questionnaire_questions": [
+        "ISO 9001:2015 certified?",
+        "Do you have FSC/PEFC chain-of-custody certification for board sourcing?",
+        "Bursting strength (BS) / Edge Crush Test (ECT) values per ply/GSM combination?",
+        "Defect rate guarantee / quality claim process?",
+        "Compliance with ISTA/ISO transit-testing standards for drop/vibration?",
+        "Printing capability (flexo, offset) and color/branding options?",
+        "Lead time for first sample/prototype approval?",
+        "Environmental compliance (recyclable content %, REACH/RoHS if applicable)?"
+      ],
+      "commercial_terms": {
+        "payment_terms_requested": "Net 45 days",
+        "delivery_terms_requested": "FOB buyer's warehouse, staggered monthly deliveries per forecast",
+        "quote_validity_days": 90
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-26T06:20:17.240076+00:00",
+    "to": [
+      "kaustubh.rege94@gmail.com"
+    ],
+    "body": "Subject: RFx - Sourcing of corrugated cardboard boxes across multiple categories (E-comm Shipping RSC, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) spanning 30 size/spec variants for annual supply.\n\nSourcing of corrugated cardboard boxes across multiple categories (E-comm Shipping RSC, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) spanning 30 size/spec variants for annual supply.\n\nLine items:\n  PKG-001: E-comm Shipping Box (RSC) (150x100x80mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-002: E-comm Shipping Box (RSC) (200x150x100mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-003: Retail Display Box (230x180x120mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-004: Heavy Duty Export Box (250x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-005: Pallet Box (300x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-006: Mailer Box (300x250x200mm, 3-ply, 120gsm) - qty 5000/yr\n  PKG-007: E-comm Shipping Box (RSC) (350x250x200mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-008: E-comm Shipping Box (RSC) (350x300x250mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-009: Retail Display Box (400x300x200mm, 3-ply, 120gsm) - qty 20000/yr\n  PKG-010: Heavy Duty Export Box (400x300x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-011: Pallet Box (450x350x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-012: Mailer Box (450x350x300mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-013: E-comm Shipping Box (RSC) (500x350x300mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-014: E-comm Shipping Box (RSC) (500x400x300mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-015: Retail Display Box (500x400x350mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-016: Heavy Duty Export Box (550x400x350mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-017: Pallet Box (600x400x350mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-018: Mailer Box (600x450x400mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-019: E-comm Shipping Box (RSC) (600x450x450mm, 3-ply, 120gsm) - qty 25000/yr\n  PKG-020: E-comm Shipping Box (RSC) (650x450x400mm, 5-ply, 180gsm) - qty 10000/yr\n  PKG-021: Retail Display Box (650x500x450mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-022: Heavy Duty Export Box (700x500x450mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-023: Pallet Box (700x550x500mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-024: Mailer Box (750x550x500mm, 3-ply, 120gsm) - qty 15000/yr\n  PKG-025: E-comm Shipping Box (RSC) (750x600x500mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-026: E-comm Shipping Box (RSC) (800x600x500mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-027: Retail Display Box (800x600x550mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-028: Heavy Duty Export Box (850x650x550mm, 5-ply, 180gsm) - qty 15000/yr\n  PKG-029: Pallet Box (900x650x600mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-030: Mailer Box (950x700x600mm, 3-ply, 120gsm) - qty 3000/yr\n\nQuality questionnaire:\n  - ISO 9001:2015 certified? (Please provide certificate)\n  - Can you guarantee a defect rate below 2%? Please describe your quality control process and rejection/replacement policy.\n\nRequested terms: {'payment_terms_requested': 'Net 45 from delivery', 'delivery_terms_requested': 'FOB origin, staggered monthly deliveries against a 12-month rolling forecast', 'quote_validity_days': 60}",
+    "rfx": {
+      "scope": "Sourcing of corrugated cardboard boxes across multiple categories (E-comm Shipping RSC, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) spanning 30 size/spec variants for annual supply.",
+      "line_items": [
+        {
+          "sku": "PKG-001",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "150x100x80",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-002",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "200x150x100",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-003",
+          "description": "Retail Display Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "230x180x120",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-004",
+          "description": "Heavy Duty Export Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "250x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-005",
+          "description": "Pallet Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "300x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-006",
+          "description": "Mailer Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "300x250x200",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-007",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "350x250x200",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-008",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "350x300x250",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-009",
+          "description": "Retail Display Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "400x300x200",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-010",
+          "description": "Heavy Duty Export Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "400x300x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-011",
+          "description": "Pallet Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "450x350x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-012",
+          "description": "Mailer Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "450x350x300",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-013",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x350x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-014",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "500x400x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-015",
+          "description": "Retail Display Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x400x350",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-016",
+          "description": "Heavy Duty Export Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "550x400x350",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-017",
+          "description": "Pallet Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "600x400x350",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-018",
+          "description": "Mailer Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x400",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-019",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x450",
+          "annual_qty_pcs": 25000
+        },
+        {
+          "sku": "PKG-020",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "650x450x400",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-021",
+          "description": "Retail Display Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "650x500x450",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-022",
+          "description": "Heavy Duty Export Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x500x450",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-023",
+          "description": "Pallet Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x550x500",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-024",
+          "description": "Mailer Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x550x500",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-025",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x600x500",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-026",
+          "description": "E-comm Shipping Box (RSC)",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "800x600x500",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-027",
+          "description": "Retail Display Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "800x600x550",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-028",
+          "description": "Heavy Duty Export Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "850x650x550",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-029",
+          "description": "Pallet Box",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "900x650x600",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-030",
+          "description": "Mailer Box",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "950x700x600",
+          "annual_qty_pcs": 3000
+        }
+      ],
+      "questionnaire_questions": [
+        "ISO 9001:2015 certified? (Please provide certificate)",
+        "Can you guarantee a defect rate below 2%? Please describe your quality control process and rejection/replacement policy."
+      ],
+      "commercial_terms": {
+        "payment_terms_requested": "Net 45 from delivery",
+        "delivery_terms_requested": "FOB origin, staggered monthly deliveries against a 12-month rolling forecast",
+        "quote_validity_days": 60
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-26T06:28:16.544592+00:00",
+    "to": [
+      "Kaustubh.rege94@gmail.com"
+    ],
+    "body": "Subject: RFx - RFQ for corrugated packaging boxes (E-comm Shipping, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) across 30 distinct size/ply/GSM variants, covering annual volume requirements for all listed SKUs.\n\nRFQ for corrugated packaging boxes (E-comm Shipping, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) across 30 distinct size/ply/GSM variants, covering annual volume requirements for all listed SKUs.\n\nLine items:\n  PKG-001: E-comm Shipping Box (RSC), 3-Ply Corrugated (150x100x80mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-002: E-comm Shipping Box (RSC), 5-Ply Corrugated (200x150x100mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-003: Retail Display Box, 3-Ply Corrugated (230x180x120mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-004: Heavy Duty Export Box, 5-Ply Corrugated (250x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-005: Pallet Box, 5-Ply Corrugated (300x200x150mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-006: Mailer Box, 3-Ply Corrugated (300x250x200mm, 3-ply, 120gsm) - qty 5000/yr\n  PKG-007: E-comm Shipping Box (RSC), 3-Ply Corrugated (350x250x200mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-008: E-comm Shipping Box (RSC), 5-Ply Corrugated (350x300x250mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-009: Retail Display Box, 3-Ply Corrugated (400x300x200mm, 3-ply, 120gsm) - qty 20000/yr\n  PKG-010: Heavy Duty Export Box, 5-Ply Corrugated (400x300x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-011: Pallet Box, 5-Ply Corrugated (450x350x250mm, 5-ply, 180gsm) - qty 2000/yr\n  PKG-012: Mailer Box, 3-Ply Corrugated (450x350x300mm, 3-ply, 120gsm) - qty 3000/yr\n  PKG-013: E-comm Shipping Box (RSC), 3-Ply Corrugated (500x350x300mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-014: E-comm Shipping Box (RSC), 5-Ply Corrugated (500x400x300mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-015: Retail Display Box, 3-Ply Corrugated (500x400x350mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-016: Heavy Duty Export Box, 5-Ply Corrugated (550x400x350mm, 5-ply, 180gsm) - qty 8000/yr\n  PKG-017: Pallet Box, 5-Ply Corrugated (600x400x350mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-018: Mailer Box, 3-Ply Corrugated (600x450x400mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-019: E-comm Shipping Box (RSC), 3-Ply Corrugated (600x450x450mm, 3-ply, 120gsm) - qty 25000/yr\n  PKG-020: E-comm Shipping Box (RSC), 5-Ply Corrugated (650x450x400mm, 5-ply, 180gsm) - qty 10000/yr\n  PKG-021: Retail Display Box, 3-Ply Corrugated (650x500x450mm, 3-ply, 120gsm) - qty 2000/yr\n  PKG-022: Heavy Duty Export Box, 5-Ply Corrugated (700x500x450mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-023: Pallet Box, 5-Ply Corrugated (700x550x500mm, 5-ply, 180gsm) - qty 20000/yr\n  PKG-024: Mailer Box, 3-Ply Corrugated (750x550x500mm, 3-ply, 120gsm) - qty 15000/yr\n  PKG-025: E-comm Shipping Box (RSC), 3-Ply Corrugated (750x600x500mm, 3-ply, 120gsm) - qty 10000/yr\n  PKG-026: E-comm Shipping Box (RSC), 5-Ply Corrugated (800x600x500mm, 5-ply, 180gsm) - qty 5000/yr\n  PKG-027: Retail Display Box, 3-Ply Corrugated (800x600x550mm, 3-ply, 120gsm) - qty 8000/yr\n  PKG-028: Heavy Duty Export Box, 5-Ply Corrugated (850x650x550mm, 5-ply, 180gsm) - qty 15000/yr\n  PKG-029: Pallet Box, 5-Ply Corrugated (900x650x600mm, 5-ply, 180gsm) - qty 3000/yr\n  PKG-030: Mailer Box, 3-Ply Corrugated (950x700x600mm, 3-ply, 120gsm) - qty 3000/yr\n\nQuality questionnaire:\n  - ISO 9001:2015 certified? (Mandatory - please attach certificate)\n  - Can you guarantee a defect rate of less than 2%? Please describe your quality control process and rejection/replacement policy.\n  - Bursting strength / Edge Crush Test (ECT) values offered per ply-GSM combination?\n  - Compliance with ISTA/ASTM transit-drop test standards?\n  - FSC or sustainably-sourced board certification?\n  - Minimum order quantity (MOQ) and lead time per SKU?\n  - In-house printing/branding capability (for retail display boxes)?\n\nRequested terms: {'payment_terms_requested': 'Net 45 from delivery', 'delivery_terms_requested': \"FOB buyer's warehouse (pan-India/multiple locations, freight included)\", 'quote_validity_days': 90}",
+    "rfx": {
+      "scope": "RFQ for corrugated packaging boxes (E-comm Shipping, Retail Display, Heavy Duty Export, Pallet, and Mailer boxes) across 30 distinct size/ply/GSM variants, covering annual volume requirements for all listed SKUs.",
+      "line_items": [
+        {
+          "sku": "PKG-001",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "150x100x80",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-002",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "200x150x100",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-003",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "230x180x120",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-004",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "250x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-005",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "300x200x150",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-006",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "300x250x200",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-007",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "350x250x200",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-008",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "350x300x250",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-009",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "400x300x200",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-010",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "400x300x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-011",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "450x350x250",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-012",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "450x350x300",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-013",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x350x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-014",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "500x400x300",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-015",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "500x400x350",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-016",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "550x400x350",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-017",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "600x400x350",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-018",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x400",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-019",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "600x450x450",
+          "annual_qty_pcs": 25000
+        },
+        {
+          "sku": "PKG-020",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "650x450x400",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-021",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "650x500x450",
+          "annual_qty_pcs": 2000
+        },
+        {
+          "sku": "PKG-022",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x500x450",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-023",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "700x550x500",
+          "annual_qty_pcs": 20000
+        },
+        {
+          "sku": "PKG-024",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x550x500",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-025",
+          "description": "E-comm Shipping Box (RSC), 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "750x600x500",
+          "annual_qty_pcs": 10000
+        },
+        {
+          "sku": "PKG-026",
+          "description": "E-comm Shipping Box (RSC), 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "800x600x500",
+          "annual_qty_pcs": 5000
+        },
+        {
+          "sku": "PKG-027",
+          "description": "Retail Display Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "800x600x550",
+          "annual_qty_pcs": 8000
+        },
+        {
+          "sku": "PKG-028",
+          "description": "Heavy Duty Export Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "850x650x550",
+          "annual_qty_pcs": 15000
+        },
+        {
+          "sku": "PKG-029",
+          "description": "Pallet Box, 5-Ply Corrugated",
+          "ply": 5,
+          "gsm": 180,
+          "dims_mm": "900x650x600",
+          "annual_qty_pcs": 3000
+        },
+        {
+          "sku": "PKG-030",
+          "description": "Mailer Box, 3-Ply Corrugated",
+          "ply": 3,
+          "gsm": 120,
+          "dims_mm": "950x700x600",
+          "annual_qty_pcs": 3000
+        }
+      ],
+      "questionnaire_questions": [
+        "ISO 9001:2015 certified? (Mandatory - please attach certificate)",
+        "Can you guarantee a defect rate of less than 2%? Please describe your quality control process and rejection/replacement policy.",
+        "Bursting strength / Edge Crush Test (ECT) values offered per ply-GSM combination?",
+        "Compliance with ISTA/ASTM transit-drop test standards?",
+        "FSC or sustainably-sourced board certification?",
+        "Minimum order quantity (MOQ) and lead time per SKU?",
+        "In-house printing/branding capability (for retail display boxes)?"
+      ],
+      "commercial_terms": {
+        "payment_terms_requested": "Net 45 from delivery",
+        "delivery_terms_requested": "FOB buyer's warehouse (pan-India/multiple locations, freight included)",
+        "quote_validity_days": 90
+      }
+    }
+  }
+]

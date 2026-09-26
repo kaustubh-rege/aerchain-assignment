@@ -1,7 +1,7 @@
 {
   "vendor_name_as_stated": "Alpha Packaging Co.",
   "currency_stated": "INR",
-  "currency_evidence": "explicitly stated: 'Currency: INR' in header",
+  "currency_evidence": "explicitly stated: \"Currency: INR\" in header",
   "line_items": [
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 150x100x80mm, 3-Ply Corrugated",
@@ -114,7 +114,7 @@
     {
       "description_as_quoted": "E-comm Shipping Box (RSC), 500x350x300mm, 3-Ply Corrugated",
       "matched_rfx_sku": "CB-013",
-      "unit_price": 15.0,
+      "unit_price": 15,
       "unit_of_measure": "per piece",
       "confidence": "high",
       "flags": [],
@@ -285,5 +285,5 @@
     "payment_terms": "50% advance, 50% on dispatch",
     "freight_terms": "Included (FOR destination)"
   },
-  "extraction_notes": "All 30 SKUs quoted with matching descriptions/dims to master list, rates consistently higher than base_price_inr (roughly 1.5-2% above master base prices). No footnote discounts or surcharges found. Grand Total (8,295,890 INR) appears to be a simple sum of line totals - verified as consistent with per-line Rate x Qty for spot-checked rows. No currency ambiguity - explicitly stated INR."
+  "extraction_notes": "All 30 SKUs quoted per-piece in INR with matching line totals (verified consistent with Annual Qty x Rate). No footnote discounts, surcharges, or conditional adjustments found in this document. Grand Total (8,295,890 INR) reconciles with sum of line totals. Questionnaire fields all present and unambiguous."
 }

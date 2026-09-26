@@ -4,7 +4,7 @@ Aerchain Product Management take-home — Kaustubh Rege
 RFx-2026-CORR-014: corrugated packaging, 30 SKUs, 5 vendors, 5 different response formats.
 
 **Build notes / what I decided and left out:** see [`one_pager.pdf`](./one_pager.pdf)
-**Recorded walkthrough:** [LINK HERE]
+**Recorded walkthrough:** https://www.loom.com/share/8e09b4c18984422884554bf0a90f2371 
 
 ## What's in this repo
 
